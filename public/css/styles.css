@@ -1,0 +1,27 @@
+body{
+    color: rgba(243, 85, 12, 0.863);
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+
+}
+footer{
+    color:rgba(73, 39, 24, 0.863);
+    margin-top: 70px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+header a{
+    margin-right: 16px;
+    text-decoration: none;
+    color: chocolate ;
+   
+}
+h1{
+    font-size: 64px;
+}
