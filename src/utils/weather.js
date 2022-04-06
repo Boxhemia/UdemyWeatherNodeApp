@@ -12,7 +12,7 @@ const getForecast = (lat,long, callbackfn) => {
         }else if (body.error){
             callbackfn('something went wrong, figures',undefined)
         }else{
-            callbackfn(undefined,' the weather is ' + body.current.temperature)
+            callbackfn(undefined,' the weather is ' + body.current.temperature + ' and the wind speed is ' + body.current.wind_speed )
         }
     })
 }
