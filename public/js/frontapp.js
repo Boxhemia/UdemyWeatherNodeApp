@@ -1,4 +1,4 @@
-
+console.log('fuck me in the ass i have become pajeet')
 
 /*fetch('http://puzzle.mead.io/puzzle').then((response)=>{
 
@@ -27,7 +27,7 @@ weatherForm.addEventListener('submit',(e)=>{
     }
     else{
         message1.textContent = 'loading'
-        fetch('http://localhost:3000/weather?address=' + location).then((response)=>{
+        fetch('/weather?address=' + location).then((response)=>{
         response.json().then((data)=>{
         
             if (data.error){
