@@ -1,4 +1,4 @@
-console.log('fuck me in the ass i have become pajeet')
+
 
 /*fetch('http://puzzle.mead.io/puzzle').then((response)=>{
 
